@@ -22,4 +22,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>Conteaza-internal.repo</id>
+      <name>ConteazaName</name>
+      <url>http://192.168.43.3:8084/nexus/content/repositories/mircea</url>
+    </repository>
+  </distributionManagement>
+
 </project>
